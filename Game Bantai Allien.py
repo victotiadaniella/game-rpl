@@ -36,7 +36,7 @@ screen = pygame.display.set_mode((0,0), FULLSCREEN)
 s_width, s_height = screen.get_size()
 
 clock = pygame.time.Clock()
-FPS = 60
+FPS = 50
 
 background_group = pygame.sprite.Group()
 player_group = pygame.sprite.Group()
